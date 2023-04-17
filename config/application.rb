@@ -4,7 +4,7 @@ require "rails/all"
 
 Bundler.require(*Rails.groups)
 
-module Demo
+module YoutubeV3
   class Application < Rails::Application
     config.eager_load_paths += %W( #{config.root}/lib )
     config.load_defaults 7.0
